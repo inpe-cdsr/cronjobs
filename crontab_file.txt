@@ -1,0 +1,1 @@
+*/15 * * * * /[...]/inpe-cdsr/repositories/cronjobs/update_download_materialized_view.sh >> /[...]/inpe-cdsr/repositories/cronjobs/cronjob.log 2>&1
