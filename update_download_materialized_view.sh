@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 # add -x in from of !/bin/bash shows error messages (e.g. !/bin/bash -x)
 
 # update download materialized view inside the container
