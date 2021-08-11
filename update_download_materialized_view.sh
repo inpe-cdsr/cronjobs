@@ -7,7 +7,7 @@ docker exec inpe_cdsr_postgis \
         -c 'CALL update_download_view_number_of_assets();'
 
 # restart dashboard after updating the database
-docker restart inpe_cdsr_catalog_dash
+#docker restart inpe_cdsr_catalog_dash
 
 echo "file has been executed at $(date)"
 
