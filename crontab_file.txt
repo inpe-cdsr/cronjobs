@@ -1,1 +1,9 @@
-*/15 * * * * /[...]/inpe-cdsr/repositories/cronjobs/update_download_materialized_view.sh >> /[...]/inpe-cdsr/repositories/cronjobs/cronjob.log 2>&1
+SHELL=/bin/bash
+
+# > - overwrite the file
+# >> - append at the final of the file
+
+*/15 * * * * /home/cdsr/inpe-cdsr/cronjobs/update_download_materialized_view.sh >> /home/cdsr/inpe-cdsr/cronjobs/cronjob.log 2>&1
+
+# a blank space is needed in the end of the file
+
