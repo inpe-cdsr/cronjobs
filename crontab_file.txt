@@ -9,10 +9,10 @@ SHELL=/bin/bash
 # > - overwrite the file
 # >> - append at the final of the file
 
-# at every 15th minute.
+# execute it at every 15th minute.
 */15 * * * * /home/cdsr/inpe-cdsr/cronjobs/update_download_materialized_view.sh >> /home/cdsr/inpe-cdsr/cronjobs/cronjob.log 2>&1
 
-# at minute 0 past every 8th hour
+# execute it at minute 0 past every 8th hour
 0 */8 * * * /home/cdsr/inpe-cdsr/cronjobs/restart_containers.sh >> /home/cdsr/inpe-cdsr/cronjobs/cronjob.log 2>&1
 
 # a blank space is needed in the end of the file
